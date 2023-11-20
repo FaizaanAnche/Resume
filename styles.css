@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+section{
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+    border-bottom: 0;
+}
+
+.section-header{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* header */
+
+header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   max-width: 1200px;
+   margin: auto;
+   margin-top: 20px;
+   border: 2px solid black;
+}
+
+.Name{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+}
+
+.details a{
+    text-decoration: none;
+}
+
+/* Intro */
+
+.Introduction{
+    border-top: 0;
+}
+
+.Introduction p{
+    text-align: justify;
+}
+
+
+/* Education */
+
+.Education h3{
+    margin-bottom: 8px;
+}
+
+.Education-location{
+    text-align: center;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.score{
+    font-weight:bolder;
+}
+
+/* Technical Skills */
+
+.skill{
+    text-align: center;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.skill h3{
+    margin-bottom: 8px;
+}
+
+/* Projects */
+
+.projects{
+    border-bottom:2px solid black ;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.projects h3{
+    margin-bottom: 8px;
+}
+
+.Keywords{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+footer h2{
+    margin: 10px 0;
+}
+button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
